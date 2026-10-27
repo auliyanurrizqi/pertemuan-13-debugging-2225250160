@@ -1,0 +1,49 @@
+KUIS FORMATIF PERTEMUAN 13
+
+Debugging, Tracing, dan Testing
+
+
+
+1. Soal: Apa perbedaan syntax error, runtime error, dan logical error?
+
+Jawaban: Syntax error adalah kesalahan penulisan kode yang melanggar aturan bahasa pemrograman sehingga kode tidak dapat dijalankan. Runtime error adalah kesalahan yang muncul ketika program sedang berjalan. Logical error adalah kesalahan pada logika atau algoritma sehingga program dapat berjalan, tetapi hasilnya tidak sesuai harapan.
+
+2. Soal: Apa fungsi traceback ketika program mengalami error?
+
+Jawaban: Traceback menunjukkan urutan pemanggilan fungsi dan lokasi terjadinya error. Informasi ini membantu programmer menemukan baris kode yang bermasalah dan memahami penyebab kesalahan.
+
+3. Soal: Kapan fitur Step Into digunakan saat debugging?
+
+Jawaban: Step Into digunakan ketika programmer ingin menjalankan program langkah demi langkah dan masuk ke dalam fungsi yang dipanggil untuk memeriksa proses di dalam fungsi tersebut.
+
+4. Soal: Apa perbedaan Step Over dan Step Into?
+
+Jawaban: Step Over menjalankan satu baris kode tanpa masuk ke dalam fungsi yang dipanggil. Step Into menjalankan kode langkah demi langkah dengan masuk ke dalam fungsi yang dipanggil agar isi fungsi dapat diperiksa.
+
+5. Soal: Mengapa test case perlu mencakup boundary values atau nilai batas?
+
+Jawaban: Nilai batas perlu diuji karena kesalahan sering terjadi pada kondisi tepat di sekitar batas, misalnya nilai minimum, maksimum, atau nilai yang berada tepat pada ambang kelulusan.
+
+6. Soal: Apa yang dimaksud expected result dan actual result dalam pengujian?
+
+Jawaban: Expected result adalah hasil yang seharusnya diperoleh berdasarkan kebutuhan atau aturan program. Actual result adalah hasil yang benar-benar dihasilkan ketika program dijalankan. Keduanya dibandingkan untuk mengetahui apakah program bekerja dengan benar.
+
+7. Soal: Mengapa regression testing perlu dilakukan setelah bug diperbaiki?
+
+Jawaban: Regression testing dilakukan untuk memastikan perbaikan bug tidak menimbulkan kesalahan baru dan tidak merusak bagian program lain yang sebelumnya sudah berjalan dengan benar.
+
+8. Soal: Mengapa masalah perlu direproduksi terlebih dahulu sebelum diperbaiki?
+
+Jawaban: Dengan mereproduksi masalah, programmer dapat memastikan kondisi yang menyebabkan bug, mengamati gejalanya, dan menguji apakah perbaikan benar-benar menyelesaikan masalah tersebut.
+
+9. Soal: Mengapa perubahan kode saat memperbaiki bug sebaiknya dilakukan seminimal mungkin?
+
+Jawaban: Perubahan yang minimal membuat penyebab dan dampak perbaikan lebih mudah ditelusuri serta mengurangi risiko munculnya kesalahan baru pada bagian program lain.
+
+10. Soal: Apa manfaat commit bertipe fix pada GitHub?
+
+Jawaban: Commit bertipe fix menandai perubahan yang bertujuan memperbaiki bug. Pesan commit yang jelas membantu dokumentasi, memudahkan pelacakan perubahan, dan membuat riwayat pengembangan proyek lebih teratur.
+
+Kesimpulan
+
+Debugging, tracing, dan testing merupakan bagian penting dalam pengembangan program. Debugging membantu menemukan dan memperbaiki kesalahan, tracing membantu menelusuri alur eksekusi, sedangkan testing digunakan untuk memeriksa apakah program menghasilkan keluaran yang sesuai. Setelah perbaikan dilakukan, program perlu diuji kembali agar kesalahan tidak muncul lagi dan fungsi lain tetap berjalan dengan baik.
