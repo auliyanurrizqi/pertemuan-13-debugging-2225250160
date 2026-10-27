@@ -1,0 +1,26 @@
+
+# File cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables dan rahasia
+.env
+.env.*
+
+# File testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Pengaturan editor (opsional)
+.vscode/
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
